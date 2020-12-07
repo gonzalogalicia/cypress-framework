@@ -1,4 +1,4 @@
-### Cypress Framework
+# Cypress Framework
 
 This repo is a barebones demo to showcase the capabilities of Cypress.
 This test framework contains features like:
@@ -14,7 +14,7 @@ This test framework contains features like:
 
 **In order to run the test from commandLine:**
 
-# Open a commandLine window
+### Open a commandLine window
 
 - Navigate to the recently cloned folder cypress-framework
 
