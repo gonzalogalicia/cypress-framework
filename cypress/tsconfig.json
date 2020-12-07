@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "outDir": "./built",
+      "baseUrl": "../node_modules",
+      "types": [
+        "cypress"
+      ]
+    },
+    "include": [
+      "**/*.*", "../applitools.config.js"
+    ],
+    "exclude": [
+      "**/*.d.ts",
+      "./built/**/*"
+    ]
+  }

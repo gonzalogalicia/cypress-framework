@@ -1,0 +1,29 @@
+{
+	"name": "cypress-framework",
+	"version": "1.0.0",
+	"description": "Automation Framework with Cypress",
+	"main": "index.js",
+	"scripts": {
+		"cy:open": "cypress open",
+		"cy:run": "cypress run",
+		"cy:run-dashboard": "cypress run --record --key 78fc212c-5862-406a-af0b-368ac865c7fe",
+		"cy:update-snapshots": "cypress run --env updateSnapshots=true",
+		"cy:run:chrome": "cypress run --browser chrome",
+		"cy:run:edge": "cypress run --browser edge",
+		"cy:run:electron": "cypress run --browser electron"
+	},
+	"keywords": [
+		"Automation",
+		"Framework",
+		"Cypress",
+		"Dashboard"
+	],
+	"author": "ggalicia",
+	"license": "ISC",
+	"dependencies": {
+		"@applitools/eyes-cypress": "^3.16.1",
+		"cypress": "^6.0.1",
+		"cypress-image-snapshot": "^4.0.0",
+		"prettier": "^2.2.1"
+	}
+}
