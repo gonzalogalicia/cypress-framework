@@ -12,5 +12,8 @@
 	"responseTimeout": 15000,
 	"video": false,
 	"failOnStatusCode": false,
-	"projectId": "b2imx7"
+	"projectId": "b2imx7",
+	"env": {
+		"b2c": "https://test-merchant.wgiftcard.com/responsive_auto/snapon_ca/virtual"
+	}
 }
