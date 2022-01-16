@@ -21,3 +21,6 @@ This test framework contains features like:
 * run `npm install`
 * run `npx eyes-setup`
 * run for a mac: `export APPLITOOLS_API_KEY=<YOUR_API_KEY>` for windows: `set APPLITOOLS_API_KEY=<YOUR_API_KEY>`
+
+#### Playwright tests
+* `npx playwright test tests/example.spec.ts` (specify test location route)
