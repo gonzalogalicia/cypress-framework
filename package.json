@@ -21,8 +21,8 @@
 	"author": "ggalicia",
 	"license": "ISC",
 	"dependencies": {
-		"@applitools/eyes-cypress": "^3.27.1",
-		"cypress": "^10.8.0",
+		"@applitools/eyes-cypress": "^3.27.2",
+		"cypress": "^10.9.0",
 		"cypress-file-upload": "^5.0.8",
 		"mocha": "^10.0.0",
 		"mochawesome": "^7.1.3",
