@@ -21,14 +21,14 @@
 	"author": "ggalicia",
 	"license": "ISC",
 	"dependencies": {
-		"@applitools/eyes-cypress": "^3.32.2",
-		"cypress": "12.12.0",
+		"@applitools/eyes-cypress": "^3.34.1",
+		"cypress": "12.17.1",
 		"cypress-file-upload": "^5.0.8",
 		"cypress-otp": "^1.0.3",
 		"mocha": "^10.2.0",
 		"mochawesome": "^7.1.3",
 		"mochawesome-merge": "^4.3.0",
 		"mochawesome-report-generator": "^6.2.0",
-		"prettier": "^2.8.8"
+		"prettier": "^3.0.0"
 	}
 }
