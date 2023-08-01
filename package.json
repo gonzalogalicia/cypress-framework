@@ -22,13 +22,11 @@
 	"license": "ISC",
 	"dependencies": {
 		"@applitools/eyes-cypress": "^3.34.1",
-		"cypress": "12.17.2",
+		"cypress": "12.17.3",
 		"cypress-file-upload": "^5.0.8",
+		"cypress-mochawesome-reporter": "^3.5.1",
 		"cypress-otp": "^1.0.3",
 		"mocha": "^10.2.0",
-		"mochawesome": "^7.1.3",
-		"mochawesome-merge": "^4.3.0",
-		"mochawesome-report-generator": "^6.2.0",
 		"prettier": "^3.0.0"
 	}
 }
