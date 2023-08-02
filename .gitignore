@@ -11,3 +11,4 @@ package-lock.json
 # misc
 .DS_Store
 /cypress/downloads
+/cypress/reports
