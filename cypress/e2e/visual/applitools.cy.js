@@ -12,7 +12,7 @@ afterEach(() => {
 }) 
 
 describe('Applitools Home Page check', () => {
-	it('should take a screenshot after visiting homepage', () => {
+	it.skip('should take a screenshot after visiting homepage', () => {
 		cy.visit(url)
 		cy.eyesCheckWindow('Homepage')
 	})

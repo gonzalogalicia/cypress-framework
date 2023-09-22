@@ -16,6 +16,7 @@ module.exports = eyesPlugin(
 		requestTimeout: 15000,
 		responseTimeout: 15000,
 		video: false,
+		screenshotOnRunFailure: false,
 		failOnStatusCode: false,
 		reporter: 'cypress-mochawesome-reporter',
 		reporterOptions: {
