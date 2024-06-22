@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+package-lock.json
 
 # Cypress screenshots and videos
 /cypress/videos
@@ -11,3 +12,4 @@
 cypress.env.json
 .DS_Store
 /cypress/downloads
+/cypress/reports
