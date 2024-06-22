@@ -8,5 +8,6 @@
 /cypress/screenshots
 
 # misc
+cypress.env.json
 .DS_Store
 /cypress/downloads
