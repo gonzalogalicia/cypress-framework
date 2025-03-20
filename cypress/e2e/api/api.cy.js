@@ -20,7 +20,7 @@ describe('REST API Test with Cypress', () => {
     it('API Test - Validate Negative Status Code', () => {
         cy.request( {
             method: 'GET',
-            url: 'https://pokeapi.co/api/v2/pokemon/1000',
+            url: 'https://pokeapi.co/api/v2/pokemon/2000',
             failOnStatusCode: false,
         }).as('pokemon')
         cy.get('@pokemon').its('status').should('equal', 404)
